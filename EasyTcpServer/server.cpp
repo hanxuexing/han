@@ -18,3 +18,7 @@ int main()
 	getchar();
 	return 0;
 }
+void play()
+{
+	printf("play");
+}
