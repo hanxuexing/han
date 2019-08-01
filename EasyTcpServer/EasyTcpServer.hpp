@@ -20,7 +20,15 @@
 #include<stdio.h>
 #include<vector>
 #include"MessageHeader.hpp"
-
+class Demo
+{
+public:
+	Demo(){}
+	~Demo(){}
+private:
+	int age;
+	double height; 
+};
 class EasyTcpServer
 {
 private:
